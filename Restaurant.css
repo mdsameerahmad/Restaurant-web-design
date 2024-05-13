@@ -1,0 +1,1973 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    overflow: visible;
+}
+
+.slide-1 {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/Dark\ plate\ with\ italian\ spaghetti\ stock\ photo\ containing\ spaghetti\ and\ italian\ \(1\).jfif);
+    background-size: cover;
+    margin-bottom: 35px;
+
+}
+
+nav {
+    height: 12vh;
+    width: 100%;
+    background-color: rgba(241, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    height: 80px;
+    width: 80px;
+}
+
+.brand-name {
+    display: flex;
+}
+
+nav h3 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Ravi Prakash", system-ui;
+    font-size: 2rem;
+    color: gold;
+}
+
+nav p {
+    padding-top: 40px;
+    margin-left: -70px;
+    font-family: "Purple Purse", serif;
+}
+
+
+.header-content a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 70px;
+    font-weight: 500;
+    margin-top: 5px;
+    position: relative;
+}
+
+.btn-1 {
+    background-color: gold;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn-2 {
+    background-color: gold;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.greeting {
+    padding-left: 2rem;
+    margin-top: 100px;
+    height: 23vh;
+    width: 44vw;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.greeting h2 {
+    color: rgb(237, 7, 7);
+    font-family: "Square Peg", cursive;
+    font-size: 6.5rem;
+    font-weight: 900;
+}
+
+.greeting h1 {
+    font-family: "Ravi Prakash", system-ui;
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: gold;
+}
+
+.greeting h3 {
+    font-family: "Katibeh", serif;
+    font-size: 2.5rem;
+    padding-top: -30px;
+}
+
+.greeting h5 {
+    padding-top: 20px;
+    margin-left: -10px;
+    color: gold;
+}
+
+.greeting .order {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    border: none;
+    width: 10vw;
+    height: 10vh;
+}
+
+/* sub-details 1 */
+.sub-home {
+    position: relative;
+    width: 200px;
+    display: inline-flex;
+}
+
+.h-d {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 80px;
+    background-color: rgba(54, 60, 60, 0.5);
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.h-d ul {
+    list-style-type: none;
+    margin-left: -70px;
+}
+
+.sub-home:hover .h-d {
+    display: block;
+}
+
+/* sub-details 2 */
+.sub-offer {
+    position: relative;
+    width: 200px;
+    display: inline-flex;
+}
+
+.o-d {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 80px;
+    background-color: rgba(54, 60, 60, 0.5);
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.o-d ul {
+    list-style-type: none;
+    margin-left: -70px;
+}
+
+.sub-offer:hover .o-d {
+    display: block;
+}
+
+/* sub-details 3 */
+.sub-about {
+    position: relative;
+    width: 200px;
+    display: inline-flex;
+}
+
+.a-d {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 80px;
+    background-color: rgba(54, 60, 60, 0.5);
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.a-d ul {
+    list-style-type: none;
+    margin-left: -70px;
+}
+
+.sub-about:hover .a-d {
+    display: block;
+}
+
+/* sub-details 4 */
+.sub-order {
+    position: relative;
+    width: 200px;
+    display: inline-flex;
+}
+
+.or-d {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 80px;
+    background-color: rgba(60, 58, 54, 0.5);
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.or-d ul {
+    list-style-type: none;
+    margin-left: -70px;
+}
+
+.sub-order:hover .or-d {
+    display: block;
+}
+
+/* slide-2 */
+.slide-2 {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/Review-background.jfif);
+    background-size: cover;
+    border-top: 5px solid rgb(255, 0, 0);
+}
+
+.slide-2 h1 {
+    padding-left: 80px;
+    padding-top: 30px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: gold;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.head-nav button {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin-right: 60px;
+    width: 10vw;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 2px solid gold;
+}
+
+.head-nav .b-1 button:hover {
+    background-color: green;
+    z-index: 1;
+    transform: scale(1.15);
+}
+
+
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* box-1 */
+
+.box-1 {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 130px;
+    margin-top: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+
+}
+
+.box-1 img {
+    height: 260px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.box-1 p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.box-1:hover {
+    opacity: 1;
+    transition: ease-in 0.2s;
+    transform: scale(1.05);
+    z-index: 0.75;
+}
+
+/* box-2 */
+.box-2 {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+.box-2 img {
+    height: 260px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.box-2 p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.box-2:hover {
+    opacity: 1;
+    transition: ease-in 0.2s;
+    transform: scale(1.05);
+    z-index: 0.75;
+}
+
+/* box-3 */
+.box-3 {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+.box-3 img {
+    height: 260px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.box-3 p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.box-3:hover {
+    opacity: 1;
+    transition: ease-in 0.2s;
+    transform: scale(1.05);
+    z-index: 0.75;
+}
+
+/* box-4 */
+.box-4 {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+.box-4 img {
+    height: 260px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.box-4 p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.box-4:hover {
+    opacity: 1;
+    transition: ease-in 0.2s;
+    transform: scale(1.05);
+    z-index: 0.75;
+}
+
+/* box-5 */
+.box-5 {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 130px;
+    margin-top: 20px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+.box-5 img {
+    height: 260px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.box-5 p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.box-5:hover {
+    opacity: 1;
+    transition: ease-in 0.2s;
+    transform: scale(1.05);
+    z-index: 0.75;
+}
+
+/* box-6 */
+.box-6 {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+.box-6 img {
+    height: 260px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.box-6 p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.box-6:hover {
+    opacity: 1;
+    transition: ease-in 0.2s;
+    transform: scale(1.05);
+    z-index: 0.75;
+}
+
+/* box-7 */
+.box-7 {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+.box-7 img {
+    height: 260px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.box-7 p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.box-7:hover {
+    opacity: 1;
+    transition: ease-in 0.2s;
+    transform: scale(1.05);
+    z-index: 0.75;
+}
+
+/* box-8 */
+.box-8 {
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+.box-8 img {
+    height: 260px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.box-8 p {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.box-8:hover {
+    opacity: 1;
+    transition: ease-in 0.2s;
+    transform: scale(1.05);
+    z-index: 0.75;
+}
+
+/* slide-3 */
+.slide-3 {
+    border-top: 5px solid red;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/world\ map.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.slide-3 h1 {
+    font-family: "Dancing Script", cursive;
+    padding: 30px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: gold;
+    margin-top: 20px;
+}
+
+.branch-section {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-1 {
+    height: 200px;
+    width: 180px;
+    margin-left: 60px;
+}
+
+.location-1 img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: 1px dotted white;
+}
+
+.location-1 p {
+    padding-left: 55px;
+    font-weight: 400;
+}
+
+.location-1 p i {
+    color: red;
+}
+
+.location-2 {
+    height: 200px;
+    width: 180px;
+    margin-left: 60px;
+}
+
+.location-2 img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: 1px dotted white;
+}
+
+.location-2 p {
+    padding-left: 55px;
+    font-weight: 400;
+}
+
+.location-2 p i {
+    color: red;
+}
+
+.location-3 {
+    height: 200px;
+    width: 180px;
+    margin-left: 60px;
+}
+
+.location-3 img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: 1px dotted white;
+}
+
+.location-3 p {
+    padding-left: 55px;
+    font-weight: 400;
+}
+
+.location-3 p i {
+    color: red;
+}
+
+.location-4 {
+    height: 200px;
+    width: 180px;
+    margin-left: 60px;
+}
+
+.location-4 img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: 1px dotted white;
+}
+
+.location-4 p {
+    padding-left: 55px;
+    font-weight: 400;
+}
+
+.location-4 p i {
+    color: red;
+}
+
+.location-5 {
+    height: 200px;
+    width: 180px;
+    margin-left: 60px;
+}
+
+.location-5 img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: 1px dotted white;
+}
+
+.location-5 p {
+    padding-left: 55px;
+    font-weight: 400;
+}
+
+.location-5 p i {
+    color: red;
+}
+
+.slide-3 h2 {
+    display: flex;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* slide-4 */
+.slide-4 {
+    border-top: 5px solid red;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(./images/Premium\ Photo\ _\ Restaurant\ blur\ background\ design\ resource.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.slide-4 h1 {
+    font-family: "Marck Script", cursive;
+    font-weight: 500;
+    font-size: 3.5rem;
+    padding: 20px;
+}
+
+.review-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-box-1 {
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    background-color: rgba(242, 166, 0, 0.3);
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.r-box-1 p {
+    margin-top: 20px;
+}
+
+.r-box-2 {
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    background-color: rgba(242, 166, 0, 0.3);
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.r-box-2 p {
+    margin-top: 20px;
+}
+
+.r-box-3 {
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    background-color: rgba(242, 166, 0, 0.3);
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.r-box-3 p {
+    margin-top: 20px;
+}
+
+.r-box-4 {
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+    background-color: rgba(242, 166, 0, 0.3);
+}
+
+.r-box-4 p {
+    margin-top: 20px;
+}
+
+.footer-box {
+    background-color: rgba(241, 0, 0, 0.8);
+    height: 30vh;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.about {
+    height: 170px;
+    width: 150px;
+    margin-top: 8px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.about a {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.social-box {
+    height: 170px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.social-box a {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.location-box {
+    height: 170px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.l-1 {
+    height: 120px;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: -60px;
+
+}
+
+.l-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+
+.l-2 {
+    height: 120px;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: -20px;
+
+}
+
+.l-2 a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+
+#toggle{
+    display: none;
+}
+.toggle-label {
+    display: none;
+}
+.cross-label{
+    display: none;
+}
+
+/* Media-Query for Inspect mode */
+
+@media only screen and (max-width:1115px) {
+
+#toggle{
+    display: none;
+}
+.toggle-label {
+    display: none;
+}
+.cross-label{
+    display: none;
+}
+
+
+
+    .header-content {
+        display: flex;
+        width: 640px;
+        padding: 5px;
+    }
+
+    .side-btn {
+        width: 160px;
+        padding: 5px;
+    }
+
+    .btn-1 {
+        padding: 5px;
+        width: 110px;
+        height: 35px;
+        margin-left: 30px;
+    }
+
+    .btn-2 {
+        width: 80px;
+        height: 35px;
+        padding: 5px;
+        margin-left: 40px;
+    }
+
+    .greeting .order {
+        width: 160px;
+    }
+
+    .slide-2 h1 {
+        font-size: 3rem;
+    }
+
+    .head-nav {
+        width: 1000px;
+        margin-left: 60px;
+    }
+
+    .box-1 {
+        width: 180px;
+        height: 280px;
+        margin-left: 50px;
+    }
+
+    .box-1 img {
+        width: 180px;
+        height: 230px;
+    }
+
+    .box-1 p {
+        width: 150px;
+        height: 40px;
+    }
+
+    .box-2 {
+        width: 180px;
+        height: 280px;
+    }
+
+    .box-2 img {
+        width: 180px;
+        height: 230px;
+    }
+
+    .box-2 p {
+        width: 150px;
+        height: 40px;
+    }
+
+    .box-3 {
+        width: 180px;
+        height: 280px;
+    }
+
+    .box-3 img {
+        width: 180px;
+        height: 230px;
+    }
+
+    .box-3 p {
+        width: 150px;
+        height: 40px;
+    }
+
+    .box-4 {
+        width: 180px;
+        height: 280px;
+    }
+
+    .box-4 img {
+        width: 180px;
+        height: 230px;
+    }
+
+    .box-4 p {
+        width: 150px;
+        height: 40px;
+    }
+
+    .box-5 {
+        width: 180px;
+        height: 280px;
+        margin-left: 50px;
+    }
+
+    .box-5 img {
+        width: 180px;
+        height: 230px;
+    }
+
+    .box-5 p {
+        width: 150px;
+        height: 40px;
+    }
+
+    .box-6 {
+        width: 180px;
+        height: 280px;
+    }
+
+    .box-6 img {
+        width: 180px;
+        height: 230px;
+    }
+
+    .box-6 p {
+        width: 150px;
+        height: 40px;
+    }
+
+    .box-7 {
+        width: 180px;
+        height: 280px;
+    }
+
+    .box-7 img {
+        width: 180px;
+        height: 230px;
+    }
+
+    .box-7 p {
+        width: 150px;
+        height: 40px;
+    }
+
+    .box-8 {
+        width: 180px;
+        height: 280px;
+    }
+
+    .box-8 img {
+        width: 180px;
+        height: 230px;
+    }
+
+    .box-8 p {
+        width: 150px;
+        height: 40px;
+    }
+
+    .location-1 {
+        margin-left: 20px;
+    }
+
+    .location-2 {
+        margin-left: 20px;
+    }
+
+    .location-3 {
+        margin-left: 20px;
+    }
+
+    .location-4 {
+        margin-left: 20px;
+    }
+
+    .location-5 {
+        margin-left: 20px;
+    }
+
+}
+
+/* Media query for smalll screen laptop */
+
+@media only screen and (min-width:769px) and (max-width:1114px) {
+
+    .menu {
+        display: none;
+    }
+    
+
+    nav img {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+    }
+
+    nav p {
+        font-size: 1rem;
+        padding-left: 20px;
+        margin-top: -5px;
+    }
+
+    nav h3 {
+        font-size: 1.5rem;
+    }
+
+    .header-content {
+        width: 500px;
+        margin-left: -30px;
+    }
+
+    .header-content a {
+        font-size: 0.85rem;
+        padding: 5px;
+        font-weight: 600;
+        margin-left: 40px;
+    }
+
+    .side-btn {
+        margin-left: -30px;
+    }
+
+    .btn-1 {
+        width: 100px;
+    }
+
+    .btn-2 {
+        width: 70px;
+    }
+
+    .main {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .slide-1 h2 {
+        margin-top: 10px;
+        font-size: 5.5rem;
+    }
+
+    .slide-1 h1 {
+        font-size: 4.5rem;
+    }
+
+    .slide-2 h1 {
+        font-size: 2.5rem;
+    }
+
+    .head-nav {
+        width: 750px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .head-nav .b-1 {
+        width: 90px;
+        margin-right: 50px;
+        padding: 10px;
+    }
+
+    .box-1 {
+        width: 120px;
+        height: 200px;
+        margin-left: 50px;
+    }
+
+    .box-1 img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .box-1 p {
+        width: 150px;
+        height: 20px;
+        font-size: 0.75rem;
+        margin-top: -8px;
+        padding: 10px;
+    }
+
+    .box-2 {
+        width: 120px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .box-2 img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .box-2 p {
+        width: 150px;
+        height: 20px;
+        font-size: 0.75rem;
+        margin-top: -8px;
+        padding: 10px;
+    }
+
+    .box-3 {
+        width: 120px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .box-3 img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .box-3 p {
+        width: 150px;
+        height: 20px;
+        font-size: 0.75rem;
+        margin-top: -8px;
+        padding: 10px;
+    }
+
+    .box-4 {
+        width: 120px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .box-4 img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .box-4 p {
+        width: 150px;
+        height: 20px;
+        font-size: 0.75rem;
+        margin-top: -8px;
+        padding: 10px;
+        margin-left: -10px;
+        font-size: 0.65rem;
+    }
+
+    .box-5 {
+        width: 120px;
+        height: 200px;
+        margin-left: 50px;
+    }
+
+    .box-5 img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .box-5 p {
+        width: 150px;
+        height: 20px;
+        font-size: 0.75rem;
+        margin-top: -8px;
+        padding: 10px;
+    }
+
+    .box-6 {
+        width: 120px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .box-6 img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .box-6 p {
+        width: 150px;
+        height: 20px;
+        font-size: 0.75rem;
+        margin-top: -8px;
+        padding: 10px;
+    }
+
+    .box-7 {
+        width: 120px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .box-7 img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .box-7 p {
+        width: 150px;
+        height: 20px;
+        font-size: 0.75rem;
+        margin-top: -8px;
+        padding: 10px;
+    }
+
+    .box-8 {
+        width: 120px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .box-8 img {
+        width: 120px;
+        height: 180px;
+    }
+
+    .box-8 p {
+        width: 150px;
+        height: 20px;
+        font-size: 0.75rem;
+        margin-top: -8px;
+        padding: 10px;
+    }
+
+    .branch-section {
+        width: 700px;
+        padding: 50px;
+    }
+
+    .location-1 {
+        margin-left: -45px;
+    }
+
+    .location-1 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .location-1 p {
+        margin-left: -30px;
+    }
+
+    .location-2 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .location-2 p {
+        margin-left: -25px;
+    }
+
+    .location-3 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .location-3 p {
+        margin-left: -20px;
+    }
+
+    .location-4 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .location-4 p {
+        margin-left: -18px;
+    }
+
+    .location-5 img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .location-5 p {
+        margin-left: -25px;
+    }
+
+    .slide-3 h2 {
+        font-size: 1.5rem;
+    }
+
+    .r-box-1 {
+        margin-left: 10px;
+    }
+
+    .r-box-1 p {
+        font-size: 0.75rem;
+    }
+
+    .r-box-2 p {
+        font-size: 0.75rem;
+    }
+
+    .r-box-3 p {
+        font-size: 0.75rem;
+    }
+
+    .r-box-4 p {
+        font-size: 0.75rem;
+    }
+}
+
+/*  media query for tablet and ipad view/screen */
+@media only screen and (min-width: 481px) and (max-width:768px) {
+
+    /* slide-1 */
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav img {
+        height: 80px;
+        width: 80px;
+        margin-top: 10px;
+    }
+
+    nav h3 {
+        font-size: 2rem;
+        margin-left: -10px;
+    }
+
+    nav p {
+        font-size: 1rem;
+        margin-left: -70px;
+        margin-top: 10px;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    .toggle-label {
+        display: block;
+        max-width: 100px;
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 2rem;
+
+    }
+
+    .header-content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: -110%;
+        width: 230px;
+        transition: top 0.3s;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+
+    }
+
+    #toggle:checked~.header-content {
+        top: 0;
+        transition: ease-in-out;
+        transition: top 0.5s;
+    }
+
+    .sub-home a {
+        margin-left: 15px;
+        position: relative;
+        width: 150px;
+    }
+    .sub-home{
+        margin-top: 10px;
+    }
+
+    .sub-home:hover {
+        background-color: rgba(241, 0, 0, 0.8);
+        transition: linear 0.1s;
+        border-radius: 5px;
+    }
+
+    .h-d {
+        position: absolute;
+        display: block;
+        margin-left: -400px;
+    }
+
+    .sub-offer a {
+        margin-left: 15px;
+        position: relative;
+        width: 150px;
+    }
+
+    .sub-offer:hover {
+        background-color: rgba(241, 0, 0, 0.8);
+        transition: linear 0.1s;
+        border-radius: 5px;
+    }
+
+    .o-d {
+        position: absolute;
+        display: block;
+        margin-left: -400px;
+    }
+
+    .sub-order a {
+        margin-left: 15px;
+        position: relative;
+        width: 150px;
+    }
+
+    .sub-order:hover {
+        background-color: rgba(241, 0, 0, 0.8);
+        transition: linear 0.1s;
+        border-radius: 5px;
+    }
+
+    .or-d {
+        position: absolute;
+        display: block;
+        margin-left: -400px;
+    }
+
+    .sub-about a {
+        margin-left: 15px;
+        position: relative;
+        width: 150px;
+    }
+
+    .sub-about:hover {
+        background-color: rgba(241, 0, 0, 0.8);
+        transition: linear 0.1s;
+        border-radius: 5px;
+    }
+
+    .a-d {
+        position: absolute;
+        display: block;
+        margin-left: -400px;
+    }
+
+
+    .side-btn {
+        margin-left: -60px;
+    }
+
+    .btn-1 {
+        width: 50px;
+        height: 25px;
+        padding: 2px;
+        margin-left: 80px;
+    }
+
+    .btn-2 {
+        width: 60px;
+        margin-left: 25px;
+        padding: 2px;
+        height: 25px;
+        margin-left: 75px;
+    }
+
+    #cross {
+        display: none;
+    }
+
+    .cross-label {
+        display: block;
+        max-width: 40px;
+        max-height: 40px;
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 1.45rem;
+        margin-left: 170px;
+        cursor: pointer;
+        margin-top: -40px;
+        font-weight: 400;
+    }
+
+    .cross-label:hover {
+        transform: rotate(45deg);
+        font-size: 1.6rem;
+        color: red;
+    }
+
+    #cross:checked~.header-content {
+        top: -110%;
+        transition: ease-in-out;
+        transition: top 0.5s;
+    }
+
+    .menu span {
+        font-size: 2rem;
+        font-family: "Purple Purse", serif;
+        color: gold;
+        border-bottom: 2px solid gold;
+    }
+
+    .slide-1 {
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./images/Dark\ plate\ with\ italian\ spaghetti\ stock\ photo\ containing\ spaghetti\ and\ italian\ \(1\).jfif);
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 35px;
+
+    }
+
+    .greeting h2 {
+        font-size: 4.75rem;
+        margin-top: -50px;
+        padding: 5px;
+    }
+
+    .greeting h1 {
+        font-size: 4.5rem;
+        margin-top: -30px;
+    }
+
+    .greeting h3 {
+        margin-top: -30px;
+        font-size: 1.75rem;
+    }
+
+    .greeting h5 {
+        font-size: 0.70rem;
+    }
+
+    .order {
+        max-width: 120px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    /* slide-2 */
+    .slide-2 h1 {
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    .head-nav {
+        margin-left: -240px;
+    }
+
+    .b-1 button {
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .box-1 {
+        height: 130px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .box-1 img {
+        width: 80px;
+        height: 105px;
+    }
+
+    .box-1 p {
+        font-size: 0.65rem;
+        padding: 5px;
+        margin-left: -8px;
+    }
+
+    .b-2 button {
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .box-2 {
+        height: 130px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .box-2 img {
+        width: 80px;
+        height: 105px;
+    }
+
+    .box-2 p {
+        font-size: 0.65rem;
+        padding: 5px;
+        margin-left: -8px;
+    }
+
+    .b-3 button {
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .box-3 {
+        height: 130px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .box-3 img {
+        width: 80px;
+        height: 105px;
+    }
+
+    .box-3 p {
+        font-size: 0.65rem;
+        padding: 5px;
+        margin-left: -8px;
+    }
+
+    .b-4 button {
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .box-4 {
+        height: 130px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .box-4 img {
+        width: 80px;
+        height: 105px;
+    }
+
+    .box-4 p {
+        font-size: 0.5rem;
+        padding: 5px;
+        margin-left: -8px;
+    }
+
+    .b-5 button {
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .box-5 {
+        height: 130px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .box-5 img {
+        width: 80px;
+        height: 105px;
+    }
+
+    .box-5 p {
+        font-size: 0.75rem;
+        padding: 5px;
+
+    }
+
+    .b-6 button {
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .box-6 {
+        height: 130px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .box-6 img {
+        width: 80px;
+        height: 105px;
+    }
+
+    .box-6 p {
+        font-size: 0.75rem;
+        padding: 5px;
+    }
+
+    .b-7 button {
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .box-7 {
+        height: 130px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .box-7 img {
+        width: 80px;
+        height: 105px;
+    }
+
+    .box-7 p {
+        font-size: 0.75rem;
+        padding: 5px;
+    }
+
+    .b-8 button {
+        height: 60px;
+        width: 60px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .box-8 {
+        height: 130px;
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    .box-8 img {
+        width: 80px;
+        height: 105px;
+    }
+
+    .box-8 p {
+        font-size: 0.75rem;
+        padding: 5px;
+    }
+
+    /* slide-3 */
+    .slide-3 h1 {
+        font-size: 2rem;
+       margin-top: 10px;
+       padding: 5px;
+    }
+
+    .branch-section {
+       display: flex;
+      flex-wrap: wrap;
+       padding: 2px;
+       height: 90vh;
+       width: 100%;
+    }
+
+
+    .location-1 img {
+        height: 100px;
+        width: 100px;
+    }
+    .location-1 p{
+        margin-left: -25px;
+    }
+    .location-2 img {
+        height: 100px;
+        width: 100px;
+    }
+    .location-2 p{
+        margin-left: -25px;
+    }
+    .location-3 img {
+        height: 100px;
+        width: 100px;
+    }
+    .location-3 p{
+        margin-left: -20px;
+    }
+    .location-4 img {
+        height: 100px;
+        width: 100px;
+    }
+    .location-4 p{
+        margin-left: -17px;
+    }
+    .location-5 img {
+        height: 100px;
+        width: 100px;
+    }
+    .location-5 p{
+        margin-left: -30px;
+    }
+
+    .slide-3 h2{
+        font-size: 0.85rem;
+        margin-top: -50px;
+    }
+
+/* slide-4 */
+
+.slide-4 h1{
+    font-size: 2rem;
+}
+
+.review-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.r-box-1{
+    height:200px;
+    width: 150px;
+    border-radius: 10px;
+}
+.r-box-1 h3{
+    font-size: 1rem;
+}
+.r-box-1 p{
+    font-size: 0.75rem;
+}
+.r-box-2{
+    height:200px;
+    width: 150px;
+    border-radius: 10px;
+}
+.r-box-2 h3{
+    font-size: 1rem;
+}
+.r-box-2 p{
+    font-size: 0.75rem;
+}
+.r-box-3{
+    height:200px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.r-box-3 h3{
+    font-size: 1rem;
+}
+.r-box-3 p{
+    font-size: 0.75rem;
+}
+.r-box-4{
+    height:200px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.r-box-4 h3{
+    font-size: 1rem;
+}
+.r-box-4 p{
+    font-size: 0.75rem;
+}
+.about{
+ margin-left: 20px;
+}
+.about h4{
+    font-size: 1rem;
+}
+.about a{
+    font-size: 0.75rem;   
+    margin-top: 5px; 
+    margin-left: -10px;
+    width: 20vw;
+}
+.social-box{
+    margin-left: 30px;
+    margin-top: -15px;
+}
+.social-box h4{
+    font-size: 1rem;
+}
+.social-box a{
+    font-size: 0.75rem;   
+    margin-top: 5px; 
+    margin-left: -10px;
+    width: 20vw;
+}
+
+
+.l-1 a{
+    font-size: 0.75rem;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: row;
+}
+.l-2 a{
+    font-size: 0.75rem;
+    margin-left: -80px;
+    display: flex;
+    flex-direction: row;
+}
+}
